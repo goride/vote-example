@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "babel-watch": "^7.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "webmock": "^0.1.4",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "scripts": {
+    "s": "babel-watch webmock.js",
+    "js": "./node_modules/webpack/bin/webpack.js -w",
+    "release": "./node_modules/webpack/bin/webpack.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "dayjs": "^1.8.14",
+    "mockjs": "^1.0.1-beta3",
+    "query-string": "5",
+    "safe-extend": "^3.0.6",
+    "tree-store": "^0.0.10",
+    "typejson": "^0.9.10"
+  }
+}
